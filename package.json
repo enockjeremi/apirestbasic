@@ -1,0 +1,23 @@
+{
+  "name": "apirestbasic",
+  "version": "1.0.0",
+  "description": "Api rest Basica con Nodejs y Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "apirestbasic"
+  },
+  "author": "Jeremi Enock",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
