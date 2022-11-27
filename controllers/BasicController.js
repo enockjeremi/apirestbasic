@@ -44,7 +44,7 @@ exports.putBasicModel = async (req, res, next) => {
     };
 };
 
-exports.postBasicModel = async (req, res, next) => {
+exports.deleteBasicModel = async (req, res, next) => {
     try {
         await BasicModel.findOneAndDelete({id: req.params.id});
         res.json({
