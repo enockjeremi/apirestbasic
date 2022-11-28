@@ -6,10 +6,10 @@ const mongoose = require('mongoose');
 
 const app = express();
 const port = process.env.PORT || 4000;
-const db = 'marines';
+const db = 'restdb';
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/restdb', {
+mongoose.connect(`mongodb://localhost:27017/${db}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
