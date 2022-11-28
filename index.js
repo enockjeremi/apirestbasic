@@ -9,7 +9,7 @@ const port = process.env.PORT || 4000;
 const db = 'marines';
 
 mongoose.Promise = global.Promise;
-mongoose.connect(`mongodb://localhost/${db}`, {
+mongoose.connect('mongodb://localhost:27017/restdb', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

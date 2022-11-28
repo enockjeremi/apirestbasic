@@ -3,20 +3,20 @@ const router = express.Router();
 const BasicController = require('../controllers/BasicController');
 
 module.exports = function() {
-    
-    router.post('/basicmodel', 
+
+    router.post('/basicmodels', 
         BasicController.postBasicModel
     );
-    router.get('/basicmodel', 
+    router.get('/basicmodels', 
         BasicController.getBasicModels
     );
-    router.get('/basicmodel/:id', 
+    router.get('/basicmodels/:id', 
         BasicController.getBasicModel
     );
-    router.put('/basicmodel/:id', 
+    router.put('/basicmodels/:id', 
         BasicController.putBasicModel
     );
-    router.delete('/basicmodel/:id', 
+    router.delete('/basicmodels/:id', 
         BasicController.deleteBasicModel
     );
     

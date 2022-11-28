@@ -16,4 +16,4 @@ const BasicModelSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('BasicModelSchema', BasicModelSchema);
+module.exports = mongoose.model('BasicModel', BasicModelSchema);

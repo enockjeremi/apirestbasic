@@ -1,4 +1,3 @@
-const { findById } = require('../models/BasicModel');
 const BasicModel = require('../models/BasicModel');
 
 exports.postBasicModel = async (req, res, next) => {
