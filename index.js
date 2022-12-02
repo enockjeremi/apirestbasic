@@ -21,5 +21,5 @@ app.use(express.urlencoded({extended: true}));
 app.use('/', routes());
 
 app.listen(port, () => {
-    console.log('Server Online: ' + port);
+    console.log('Server Online');
 })
